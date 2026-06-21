@@ -185,7 +185,8 @@ async function extractTextFromFile(name: string, type: string, base64: string): 
   const buffer = Buffer.from(base64Data, 'base64');
 
   if (type === 'application/pdf' || name.toLowerCase().endsWith('.pdf')) {
-    const pdf = (await import('pdf-parse')).default;
+    const pdfParseModule = await import('pdf-parse');
+    const pdf = (pdfParseModule as any).default || pdfParseModule;
     const data = await pdf(buffer);
     return data.text;
   }
