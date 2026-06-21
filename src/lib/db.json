@@ -1,0 +1,2073 @@
+{
+  "registeredUsers": [
+    {
+      "name": "Ali Valiyev",
+      "email": "teacher@dangasa.ai",
+      "passwordHash": "dGVhY2hlcjEyMw==",
+      "role": "teacher",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=AliValiyev",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Ziyoda Karimova",
+      "email": "student@dangasa.ai",
+      "passwordHash": "c3R1ZGVudDEyMw==",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=ZiyodaKarimova",
+      "xp": 120,
+      "levelNumber": 2
+    },
+    {
+      "name": "shohjahon erkinov",
+      "email": "shoxxonerkhinov@gmail.com",
+      "passwordHash": "c2hvaDIwMDcxMA==",
+      "role": "teacher",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=shohjahon%20erkinov",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.1780899367431@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS4xNzgwODk5MzY3NDMxJTQwZ21haWwuY29t",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 75,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.1780936471447@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS4xNzgwOTM2NDcxNDQ3JTQwZ21haWwuY29t",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 375,
+      "levelNumber": 4
+    },
+    {
+      "name": "abdulhay jo'rayev",
+      "email": "abdulhayjorayev@gmail.com",
+      "passwordHash": "MTIzNDU2YWJkdWxoYXk=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=abdulhay%20jo'rayev",
+      "xp": 225,
+      "levelNumber": 3
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.user.1781458768000@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS51c2VyLjE3ODE0NTg3NjgwMDAlNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.user.1781458844883@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS51c2VyLjE3ODE0NTg4NDQ4ODMlNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "GitHub Foydalanuvchi",
+      "email": "github.user.1781458847289@github.com",
+      "passwordHash": "b2F1dGgtZ2l0aHViLWdpdGh1Yi51c2VyLjE3ODE0NTg4NDcyODklNDBnaXRodWIuY29t",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=GitHub%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.user.1781460195264@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS51c2VyLjE3ODE0NjAxOTUyNjQlNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.user.1781461352796@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS51c2VyLjE3ODE0NjEzNTI3OTYlNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.user.1781461366903@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS51c2VyLjE3ODE0NjEzNjY5MDMlNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.user.1781502970412@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS51c2VyLjE3ODE1MDI5NzA0MTIlNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.1781505055139@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS4xNzgxNTA1MDU1MTM5JTQwZ21haWwuY29t",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.1781505064344@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS4xNzgxNTA1MDY0MzQ0JTQwZ21haWwuY29t",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "GitHub Foydalanuvchi",
+      "email": "github.user.1781505068899@github.com",
+      "passwordHash": "b2F1dGgtZ2l0aHViLWdpdGh1Yi51c2VyLjE3ODE1MDUwNjg4OTklNDBnaXRodWIuY29t",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=GitHub%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.user.1781505116083@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS51c2VyLjE3ODE1MDUxMTYwODMlNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.user.1781505192304@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS51c2VyLjE3ODE1MDUxOTIzMDQlNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.user.1781506025956@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS51c2VyLjE3ODE1MDYwMjU5NTYlNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "Google Foydalanuvchi",
+      "email": "google.user.1781506429187@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLWdvb2dsZS51c2VyLjE3ODE1MDY0MjkxODclNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=Google%20Foydalanuvchi",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "shohjahon erkinov",
+      "email": "shohajahonerkinov@gmail.com",
+      "passwordHash": "MTIzNDU2N3Nob2hqYWhvbg==",
+      "role": "student",
+      "level": "school",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=shohjahon%20erkinov",
+      "xp": 0,
+      "levelNumber": 1
+    },
+    {
+      "name": "shohjahon erkinov",
+      "email": "shohkxanerkhinov@gmail.com",
+      "passwordHash": "b2F1dGgtZ29vZ2xlLXNob2hreGFuZXJraGlub3YlNDBnbWFpbC5jb20=",
+      "role": "student",
+      "level": "university",
+      "profileImage": "https://api.dicebear.com/7.x/bottts/svg?seed=a3g93",
+      "xp": 495,
+      "levelNumber": 5
+    }
+  ],
+  "assignments": [
+    {
+      "id": "file-quiz-1781601914348-qgubw7",
+      "title": "Magnit maydon va uning xarakteristikalari (Magnit induksiyasi, Amper kuchi)",
+      "description": "Fayllar: 3-mavzu uchun test.docx",
+      "timeLimit": 30,
+      "deadline": "2026-06-23T09:25:14.348Z",
+      "questions": [
+        {
+          "id": "fq1",
+          "text": "Magnit maydon kuch chiziqlari bizga nega kerak?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Magnit maydonni tasavvur qila olish uchun",
+            "B) Magnit maydon fazoning qaysi qismida katta yoki kichik ekanini aniqlash uchun",
+            "C) Magnit induksiya vektorini yo'nalishini aniqlash uchun",
+            "D) Barcha javoblar to'g'ri"
+          ],
+          "correctAnswer": "D) Barcha javoblar to'g'ri"
+        },
+        {
+          "id": "fq2",
+          "text": "Magnit induksiya vektorining birligini belgilang.",
+          "type": "multiple-choice",
+          "options": [
+            "A) Tesla",
+            "B) Farad",
+            "C) Amper",
+            "D) Veber"
+          ],
+          "correctAnswer": "A) Tesla"
+        },
+        {
+          "id": "fq3",
+          "text": "Magnit maydonni nimalar hosil qiladi?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Harakatdagi zaryadli zarralar, tokli o'tkazgich, doimiy magnitlar, o'zgaruvchan tok o'tayotgan o'tkazgich",
+            "B) Harakatdagi va tinch turgan zaryadli zarralar, tokli o'tkazgich, doimiy magnitlar, o'zgaruvchan tok o'tayotgan o'tkazgich",
+            "C) Harakatdagi zaryadli zarralar, tokli o'tkazgich, doimiy magnitlar, dielektrik moddalar",
+            "D) Harakatdagi zaryadli zarralar, tokli o'tkazgich, doimiy magnitlar, o'zgaruvchan tok o'tayotgan o'tkazgich, neytronlar oqimi"
+          ],
+          "correctAnswer": "A) Harakatdagi zaryadli zarralar, tokli o'tkazgich, doimiy magnitlar, o'zgaruvchan tok o'tayotgan o'tkazgich"
+        },
+        {
+          "id": "fq4",
+          "text": "Aylanma tokning markazidagi magnit induksiya vektorini aniqlash formulasini ko'rsating.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $B = \\frac{\\mu_0 I}{2R}$",
+            "B) $B = \\frac{\\mu_0 I}{2\\pi R}$",
+            "C) $B = \\mu_0 n I$",
+            "D) $B = \\frac{\\mu_0 I R^2}{2}$"
+          ],
+          "correctAnswer": "A) $B = \\frac{\\mu_0 I}{2R}$"
+        },
+        {
+          "id": "fq5",
+          "text": "To'g'ri tokning magnit induksiya vektorini aniqlash formulasini ko'rsating.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $B = \\frac{\\mu_0 I}{2\\pi r}$",
+            "B) $B = \\frac{\\mu_0 I}{2r}$",
+            "C) $B = \\mu_0 \\frac{N}{l} I$",
+            "D) $B = \\mu_0 I$"
+          ],
+          "correctAnswer": "A) $B = \\frac{\\mu_0 I}{2\\pi r}$"
+        },
+        {
+          "id": "fq6",
+          "text": "Solenoid ichidagi tokning magnit induksiya vektorini aniqlash formulasini ko'rsating.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $B = \\mu_0 \\frac{N}{l} I$",
+            "B) $B = \\frac{\\mu_0 I}{2R}$",
+            "C) $B = \\frac{\\mu_0 I}{2\\pi r}$",
+            "D) $B = \\mu_0 I$"
+          ],
+          "correctAnswer": "A) $B = \\mu_0 \\frac{N}{l} I$"
+        },
+        {
+          "id": "fq7",
+          "text": "To'g'ri tokning Magnit induksiya vektori yo'nalishi qanday aniqlanadi?",
+          "type": "multiple-choice",
+          "options": [
+            "A) O'ng qo'limiz bosh barmoq $90^\\circ$ ga ochiladi to'rtala barmoq tok yo'nalishiga qo'yilganda bosh barmoq $B$ ni yo'nalishini ko'rsatadi",
+            "B) O'ng qo'limizni bosh barmog'i tok yo'nalishiga qo'yiladi va yarim bukilgan to'rtala barmoq bilan o'tkazgich ushlanganda yarim bukilgan to'rtala barmoq $B$ ni yo'nalishini ko'rsatadi",
+            "C) O'ng qo'limizni yarim bukilgan to'rtala barmog'i tok yo'nalishiga qo'yiladi va bosh barmoq $B$ ni yo'nalishini ko'rsatadi",
+            "D) Chap qo'limizni bosh barmog'i tok yo'nalishiga qo'yiladi va yarim bukilgan to'rtala barmoq bilan o'tkazgich ushlanganda yarim bukilgan to'rtala barmoq $B$ ni yo'nalishini ko'rsatadi"
+          ],
+          "correctAnswer": "B) O'ng qo'limizni bosh barmog'i tok yo'nalishiga qo'yiladi va yarim bukilgan to'rtala barmoq bilan o'tkazgich ushlanganda yarim bukilgan to'rtala barmoq $B$ ni yo'nalishini ko'rsatadi"
+        },
+        {
+          "id": "fq8",
+          "text": "Amper kuchiga ta'rif bering.",
+          "type": "multiple-choice",
+          "options": [
+            "A) Tokli o'tkazgich atrofida paydo bo'ladigan kuch",
+            "B) Tokli o'tkazgichga magnit maydon tomonidan ta'sir qiluvchi kuch",
+            "C) Tokli o'tkazgichga elektr maydon tomonidan ta'sir qiluvchi kuch",
+            "D) Zaryadli zarrachaga magnit maydon tomonidan ta'sir qiluvchi kuch"
+          ],
+          "correctAnswer": "B) Tokli o'tkazgichga magnit maydon tomonidan ta'sir qiluvchi kuch"
+        },
+        {
+          "id": "fq9",
+          "text": "Amper kuchining matematik ifodasi qanday?",
+          "type": "multiple-choice",
+          "options": [
+            "A) $F_A = I B l \\sin\\alpha$",
+            "B) $F_A = q v B \\sin\\alpha$",
+            "C) $F_A = I B l \\cos\\alpha$",
+            "D) $F_A = \\frac{I B}{l}$"
+          ],
+          "correctAnswer": "A) $F_A = I B l \\sin\\alpha$"
+        },
+        {
+          "id": "fq10",
+          "text": "Amper kuchi yo'nalishi qanday aniqlanadi?",
+          "type": "multiple-choice",
+          "options": [
+            "A) O'ng qo'limiz kaftiga magnit induksiya vektori kiradigan qilib joylashtiramiz va to'rtala barmoq tokni yo'nalishiga moslab qo'yilganda $90^\\circ$ ga ochilgan bosh barmoq Amper kuchini yo'nalishini ko'rsatadi",
+            "B) O'ng qo'limiz kaftini ustki qismiga magnit induksiya vektori kiradigan qilib joylashtiramiz va to'rtala barmoq tokni yo'nalishiga moslab qo'yilganda $90^\\circ$ ga ochilgan bosh barmoq Amper kuchini yo'nalishini ko'rsatadi",
+            "C) O'ng qo'limiz kaftiga magnit induksiya vektori kiradigan qilib joylashtiramiz va to'rtala barmoq tokni yo'nalishiga qarama-qarshi moslab qo'yilganda $90^\\circ$ ga ochilgan bosh barmoq Amper kuchini yo'nalishini ko'rsatadi",
+            "D) O'ng qo'limiz kaftiga magnit induksiya vektori kiradigan qilib joylashtiramiz va $90^\\circ$ ga ochilgan bosh barmoq tokni yo'nalishiga moslab qo'yilganda to'rtala barmoq Amper kuchini yo'nalishini ko'rsatadi"
+          ],
+          "correctAnswer": "A) O'ng qo'limiz kaftiga magnit induksiya vektori kiradigan qilib joylashtiramiz va to'rtala barmoq tokni yo'nalishiga moslab qo'yilganda $90^\\circ$ ga ochilgan bosh barmoq Amper kuchini yo'nalishini ko'rsatadi"
+        },
+        {
+          "id": "fq11",
+          "text": "Magnit maydon induksiyasi $B = 0.5\\text{ T}$ bo'lgan maydonda uzunligi $l = 0.2\\text{ m}$ bo'lgan o'tkazgichdan $I = 4\\text{ A}$ tok o'tmoqda. O'tkazgichga ta'sir qiluvchi kuchni toping (N). O'tkazgich magnit maydonga perpendikulyar joylashgan.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $0.4$",
+            "B) $0.2$",
+            "C) $0.6$",
+            "D) $0.8$"
+          ],
+          "correctAnswer": "A) $0.4$"
+        },
+        {
+          "id": "fq12",
+          "text": "O'tkazgich uzunligi $0.5\\text{ m}$. Undan $I = 2\\text{ A}$ tok o'tmoqda. Magnit maydon o'tkazgichga $F = 0.2\\text{ N}$ kuch bilan ta'sir qiladi. Magnit induksiya vektorini aniqlang (T). O'tkazgich maydonga perpendikulyar.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $0.4$",
+            "B) $0.2$",
+            "C) $0.6$",
+            "D) $0.8$"
+          ],
+          "correctAnswer": "B) $0.2$"
+        },
+        {
+          "id": "fq13",
+          "text": "Cheksiz uzun to'g'ri o'tkazgichdan $I = 10\\text{ A}$ tok o'tmoqda. O'tkazgichdan $r = 5\\text{ cm}$ masofada joylashgan nuqtadagi Magnit induksiyasini toping (T).",
+          "type": "multiple-choice",
+          "options": [
+            "A) $4 \\times 10^{-5}$",
+            "B) $2 \\times 10^{-5}$",
+            "C) $4 \\times 10^{-6}$",
+            "D) $2 \\times 10^{-6}$"
+          ],
+          "correctAnswer": "A) $4 \\times 10^{-5}$"
+        },
+        {
+          "id": "fq14",
+          "text": "Radiusi $R = 10\\text{ cm}$ bo'lgan aylana o'tkazgichdan $I = 5\\text{ A}$ tok o'tmoqda. Aylananing markazidagi Magnit induksiyasini toping (T).",
+          "type": "multiple-choice",
+          "options": [
+            "A) $3 \\times 10^{-5}$",
+            "B) $2 \\times 10^{-5}$",
+            "C) $3 \\times 10^{-6}$",
+            "D) $2 \\times 10^{-6}$"
+          ],
+          "correctAnswer": "A) $3 \\times 10^{-5}$"
+        },
+        {
+          "id": "fq15",
+          "text": "Uzun Solenoidda o'ramlar soni $N = 1000$ ta. Solenoid uzunligi $l = 0.5\\text{ m}$. Undan $I = 2\\text{ A}$ tok o'tmoqda. Solenoid ichidagi Magnit induksiyasini toping (T).",
+          "type": "multiple-choice",
+          "options": [
+            "A) $5 \\times 10^{-3}$",
+            "B) $2 \\times 10^{-6}$",
+            "C) $5 \\times 10^{-6}$",
+            "D) $2 \\times 10^{-3}$"
+          ],
+          "correctAnswer": "A) $5 \\times 10^{-3}$"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true,
+      "group": "112-152"
+    },
+    {
+      "id": "quiz-1781596034379-8lebta",
+      "title": "tarix",
+      "description": "nazorat kuchli",
+      "timeLimit": 30,
+      "deadline": "2026-06-23T07:47:14.380Z",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Boburiylar saltanatining asoschisi Zahiriddin Muhammad Bobur va Dehli sultoni Ibrohim Loʻdiy oʻrtasidagi birinchi Panipat jangi qachon boʻlib oʻtgan?",
+          "type": "multiple-choice",
+          "options": [
+            "A) 1526-yil 21-aprel",
+            "B) 1527-yil 16-mart",
+            "C) 1530-yil 26-dekabr",
+            "D) 1556-yil 5-noyabr"
+          ],
+          "correctAnswer": "A) 1526-yil 21-aprel"
+        },
+        {
+          "id": "q2",
+          "text": "Boburning vorisi Humoyunshoh qaysi jangdagi magʻlubiyatdan soʻng vaqtincha taxtdan mahrum boʻlib, Safaviylar davlatidan panoh topishga majbur boʻlgan?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Qanuj jangi (1540-yil)",
+            "B) Panipat jangi (1526-yil)",
+            "C) Buxor jangi (1535-yil)",
+            "D) Chausa jangi (1539-yil)"
+          ],
+          "correctAnswer": "A) Qanuj jangi (1540-yil)"
+        },
+        {
+          "id": "q3",
+          "text": "Jaloliddin Muhammad Akbarshoh tomonidan joriy etilgan, mamlakatdagi turli din vakillarini birlashtirishga qaratilgan sincretik diniy-falsafiy ta'limot qanday atalgan?",
+          "type": "multiple-choice",
+          "options": [
+            "A) \"Din-i ilohiy\"",
+            "B) \"Suhl-i kull\"",
+            "C) \"Tavhidi vujud\"",
+            "D) \"Ibodatxona\""
+          ],
+          "correctAnswer": "A) \"Din-i ilohiy\""
+        },
+        {
+          "id": "q4",
+          "text": "Akbarshoh davrida joriy etilgan, harbiy va ma'muriy amaldorlarning mavqeini hamda ularga beriladigan maosh yoki yer miqdorini belgilovchi tizim qanday nomlangan?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Mansabdorlik (Mansabdari) tizimi",
+            "B) Iqto tizimi",
+            "C) Soyurg'ol tizimi",
+            "D) Zamindorlik tizimi"
+          ],
+          "correctAnswer": "A) Mansabdorlik (Mansabdari) tizimi"
+        },
+        {
+          "id": "q5",
+          "text": "Boburiy hukmdor Shoh Jahon rafiqasi Mumtoz Mahal xotirasiga atab Agra shahrida qaysi mashhur me'moriy obidani barpo ettirgan?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Toj Mahal",
+            "B) Qizil Qal'a",
+            "C) Humoyun maqbarasi",
+            "D) Buland Darvoza"
+          ],
+          "correctAnswer": "A) Toj Mahal"
+        },
+        {
+          "id": "q6",
+          "text": "Boburiylarning qaysi hukmdori davrida davlat hududi eng keng nuqtaga yetgan bo'lsa-da, markaziy hokimiyatga qarshi qo'zg'olonlar va \"jizya\" solig'ining qayta tiklanishi imperiyaning inqirozini boshlab berdi?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Aurangzeb (Olamgir)",
+            "B) Shoh Jahon",
+            "C) Jahongirshoh",
+            "D) Bahodirshoh I"
+          ],
+          "correctAnswer": "A) Aurangzeb (Olamgir)"
+        },
+        {
+          "id": "q7",
+          "text": "Zahiriddin Muhammad Boburning o'zbek tilida yozilgan, nafaqat tarixiy voqealar, balki o'sha davr geografiyasi, tabiati va etnografiyasiga oid qimmatli ma'lumotlarni jamlagan asari qaysi?",
+          "type": "multiple-choice",
+          "options": [
+            "A) \"Boburnoma\"",
+            "B) \"Mubayyin\"",
+            "C) \"Xat-i Boburiy\"",
+            "D) \"Akbarnoma\""
+          ],
+          "correctAnswer": "A) \"Boburnoma\""
+        },
+        {
+          "id": "q8",
+          "text": "Boburiylar sulolasining so'nggi hukmdori Bahodirshoh II qaysi tarixiy voqeadan so'ng ingliz mustamlakachilari tomonidan taxtdan tushirilib, surgun qilingan va shu bilan sulola hukmronligi tugatilgan?",
+          "type": "multiple-choice",
+          "options": [
+            "A) 1857-1858 yillardagi xalq qo'zg'oloni (Sipohiylar qo'zg'oloni)",
+            "B) 1757-yilgi Plessi jangi",
+            "C) 1764-yilgi Baksar jangi",
+            "D) 1803-yilgi Dehli uchun jang"
+          ],
+          "correctAnswer": "A) 1857-1858 yillardagi xalq qo'zg'oloni (Sipohiylar qo'zg'oloni)"
+        },
+        {
+          "id": "q9",
+          "text": "Qaysi Boburiy hukmdor davrida tasviriy san'at va miniatyura maktabi o'zining eng yuksak cho'qqisiga erishdi hamda saroyda maxsus rassomlik ustaxonalari (tasvirxonalar) faoliyati kengaytirildi?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Nuriddin Muhammad Jahongir",
+            "B) Jaloliddin Muhammad Akbar",
+            "C) Humoyun",
+            "D) Shoh Jahon"
+          ],
+          "correctAnswer": "A) Nuriddin Muhammad Jahongir"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true,
+      "group": "082-025"
+    },
+    {
+      "id": "quiz-1781553045427-evgneo",
+      "title": "tarix",
+      "description": "nazorat bor",
+      "timeLimit": 30,
+      "deadline": "2026-06-22T19:50:45.427Z",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Amir Temur o'z hokimiyatini mustahkamlash va Temuriylar davlatiga asos solish jarayonida hal qiluvchi ahamiyatga ega bo'lgan qaysi jangda g'alaba qozondi?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Chuqur jangi",
+            "B) Anqara jangi",
+            "C) Jeta xonligi bilan jang",
+            "D) Dashti Qipchoq yurishi"
+          ],
+          "correctAnswer": "A) Chuqur jangi"
+        },
+        {
+          "id": "q2",
+          "text": "Temuriylar davrining eng yirik allomalaridan biri bo'lgan Mirzo Ulug'bek qaysi ilmiy yo'nalishdagi ishlari bilan jahon miqyosida tanilgan?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Tibbiyot va farmakologiya",
+            "B) Adabiyot va tilshunoslik",
+            "C) Astronomiya va matematika",
+            "D) Huquqshunoslik va ilohiyot"
+          ],
+          "correctAnswer": "C) Astronomiya va matematika"
+        },
+        {
+          "id": "q3",
+          "text": "Amir Temur tomonidan imperiyani boshqarishda asos bo'lgan, davlat tuzilishi, huquqiy normalar va harbiy qoidalarni o'z ichiga olgan qonunlar majmuasi qanday nom bilan mashhur?",
+          "type": "multiple-choice",
+          "options": [
+            "A) 'Shariatnomalar'",
+            "B) 'Vaqfnomalar'",
+            "C) 'Tuzuklar'",
+            "D) 'Davlatnoma'"
+          ],
+          "correctAnswer": "C) 'Tuzuklar'"
+        },
+        {
+          "id": "q4",
+          "text": "Alisher Navoiy Temuriylar davrining qaysi hukmdori homiyligida ijod qilib, uning saroyida xizmat qilgan va o'zining eng yirik asarlarini yaratgan?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Amir Temur",
+            "B) Mirzo Ulug'bek",
+            "C) Abu Said Mirzo",
+            "D) Sulton Husayn Boyqaro"
+          ],
+          "correctAnswer": "D) Sulton Husayn Boyqaro"
+        },
+        {
+          "id": "q5",
+          "text": "Temuriylar me'morchiligining eng ulug'vor namunalaridan biri bo'lgan Bibixonim jome masjidi qaysi shaharda bunyod etilgan?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Buxoro",
+            "B) Samarqand",
+            "C) Hirot",
+            "D) Shahrisabz"
+          ],
+          "correctAnswer": "B) Samarqand"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true
+    },
+    {
+      "id": "file-quiz-1781548884851-eagz1e",
+      "title": "Physics",
+      "description": "Fayllar: Fizika_10_ta_qiyin_savol.docx",
+      "timeLimit": 30,
+      "deadline": "2026-06-22T18:41:24.852Z",
+      "questions": [
+        {
+          "id": "fq1",
+          "text": "Ideal gazning ichki energiyasi faqat ... ga bog‘liq.",
+          "type": "multiple-choice",
+          "options": [
+            "A) bosimga",
+            "B) hajmga",
+            "C) temperaturaga",
+            "D) zichlikka"
+          ],
+          "correctAnswer": "C) temperaturaga"
+        },
+        {
+          "id": "fq2",
+          "text": "Yorug‘likning to‘lqin uzunligi $500\\text{ nm}$. Uning vakuumdagi chastotasi qancha? ($c = 3\\times10^8\\text{ m/s}$)",
+          "type": "multiple-choice",
+          "options": [
+            "A) $6\\times10^{14}\\text{ Hz}$",
+            "B) $5\\times10^{14}\\text{ Hz}$",
+            "C) $1.5\\times10^{15}\\text{ Hz}$",
+            "D) $3\\times10^{14}\\text{ Hz}$"
+          ],
+          "correctAnswer": "A) $6\\times10^{14}\\text{ Hz}$"
+        },
+        {
+          "id": "fq3",
+          "text": "Massasi $2\\text{ kg}$ bo‘lgan jism $4\\text{ m/s}^2$ tezlanish bilan harakatlanyapti. Unga ta’sir etuvchi kuch qancha?",
+          "type": "multiple-choice",
+          "options": [
+            "A) $2\\text{ N}$",
+            "B) $4\\text{ N}$",
+            "C) $6\\text{ N}$",
+            "D) $8\\text{ N}$"
+          ],
+          "correctAnswer": "D) $8\\text{ N}$"
+        },
+        {
+          "id": "fq4",
+          "text": "Zaryadlari bir xil bo‘lgan ikki nuqtaviy zaryad vakuumda bir-biridan $3\\text{ cm}$ masofada $1.6\\text{ N}$ kuch bilan ta’sirlashsa, har bir zaryad miqdori qancha? ($k = 9\\times10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$)",
+          "type": "multiple-choice",
+          "options": [
+            "A) $2\\times10^{-6}\\text{ C}$",
+            "B) $4\\times10^{-6}\\text{ C}$",
+            "C) $6\\times10^{-6}\\text{ C}$",
+            "D) $8\\times10^{-6}\\text{ C}$"
+          ],
+          "correctAnswer": "B) $4\\times10^{-6}\\text{ C}$"
+        },
+        {
+          "id": "fq5",
+          "text": "Ideal transformatorning chiqish kuchlanishi $12\\text{ V}$, kirish kuchlanishi $240\\text{ V}$. Agar birlamchi chulg‘am $2000$ o‘ram bo‘lsa, ikkilamchi chulg‘am necha o‘ram?",
+          "type": "multiple-choice",
+          "options": [
+            "A) $50$",
+            "B) $100$",
+            "C) $200$",
+            "D) $400$"
+          ],
+          "correctAnswer": "B) $100$"
+        },
+        {
+          "id": "fq6",
+          "text": "Massasi $1\\text{ kg}$ bo‘lgan jism $10\\text{ m}$ balandlikdan erkin tushmoqda. Yerga urilish oldidan kinetik energiyasi qancha? ($g=10\\text{ m/s}^2$, havo qarshiligi yo‘q)",
+          "type": "multiple-choice",
+          "options": [
+            "A) $50\\text{ J}$",
+            "B) $100\\text{ J}$",
+            "C) $150\\text{ J}$",
+            "D) $200\\text{ J}$"
+          ],
+          "correctAnswer": "B) $100\\text{ J}$"
+        },
+        {
+          "id": "fq7",
+          "text": "Bir atomli ideal gazning molyar issiqlik sig‘imi o‘zgarmas bosimda ($C_p$) qanchaga teng? ($R = 8.31\\text{ J}/(\\text{mol}\\cdot\\text{K})$)",
+          "type": "multiple-choice",
+          "options": [
+            "A) $12.47\\text{ J}/(\\text{mol}\\cdot\\text{K})$",
+            "B) $20.78\\text{ J}/(\\text{mol}\\cdot\\text{K})$",
+            "C) $24.93\\text{ J}/(\\text{mol}\\cdot\\text{K})$",
+            "D) $29.10\\text{ J}/(\\text{mol}\\cdot\\text{K})$"
+          ],
+          "correctAnswer": "B) $20.78\\text{ J}/(\\text{mol}\\cdot\\text{K})$"
+        },
+        {
+          "id": "fq8",
+          "text": "Yassi kondensatorning sig‘imi $10\\text{ }\\mu\\text{F}$, undagi kuchlanish $200\\text{ V}$. Kondensatorning energiyasi qancha?",
+          "type": "multiple-choice",
+          "options": [
+            "A) $0.1\\text{ J}$",
+            "B) $0.2\\text{ J}$",
+            "C) $0.4\\text{ J}$",
+            "D) $0.8\\text{ J}$"
+          ],
+          "correctAnswer": "B) $0.2\\text{ J}$"
+        },
+        {
+          "id": "fq9",
+          "text": "Elektron magnit maydonda aylana bo‘ylab harakatlanyapti. Maydon induksiyasi $0.01\\text{ T}$, elektron tezligi $10^6\\text{ m/s}$. Aylana radiusi qancha? ($e=1.6\\times10^{-19}\\text{ C}$, $m_e=9.1\\times10^{-31}\\text{ kg}$)",
+          "type": "multiple-choice",
+          "options": [
+            "A) $5.69\\times10^{-4}\\text{ m}$",
+            "B) $1.14\\times10^{-3}\\text{ m}$",
+            "C) $2.28\\times10^{-3}\\text{ m}$",
+            "D) $4.56\\times10^{-3}\\text{ m}$"
+          ],
+          "correctAnswer": "A) $5.69\\times10^{-4}\\text{ m}$"
+        },
+        {
+          "id": "fq10",
+          "text": "Nurlanish quvvati $100\\text{ W}$ bo‘lgan nuqtaviy manbadan $2\\text{ m}$ masofada yorug‘lik intensivligi ($\\text{W/m}^2$) qancha?",
+          "type": "multiple-choice",
+          "options": [
+            "A) $1.99$",
+            "B) $3.98$",
+            "C) $7.96$",
+            "D) $15.92$"
+          ],
+          "correctAnswer": "A) $1.99$"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true
+    },
+    {
+      "id": "file-quiz-1781547503040-gubjrw",
+      "title": "Introductory and Modern Physics",
+      "description": "Fayl: physics_test.docx",
+      "timeLimit": 30,
+      "deadline": "2026-06-22T18:18:23.040Z",
+      "questions": [
+        {
+          "id": "fq1",
+          "text": "A projectile is launched from ground level with an initial velocity $v_0$ at an angle $\theta$ above the horizontal. Neglecting air resistance, what is the maximum height $H$ reached by the projectile?",
+          "type": "multiple-choice",
+          "options": [
+            "A) $H = \\frac{v_0^2 \\sin^2\\theta}{2g}$",
+            "B) $H = \\frac{v_0^2 \\sin(2\\theta)}{g}$",
+            "C) $H = \\frac{v_0^2 \\cos^2\\theta}{2g}$",
+            "D) $H = \\frac{v_0 \\sin\\theta}{g}$"
+          ],
+          "correctAnswer": "A) $H = \\frac{v_0^2 \\sin^2\\theta}{2g}$"
+        },
+        {
+          "id": "fq2",
+          "text": "Consider a solid conducting sphere of radius $R$ carrying a total charge $Q$. What is the magnitude of the electric field $E$ at a distance $r < R$ from the center of the sphere?",
+          "type": "multiple-choice",
+          "options": [
+            "A) $E = \\frac{Q}{4\\pi \\varepsilon_0 r^2}$",
+            "B) $E = 0$",
+            "C) $E = \\frac{Qr}{4\\pi \\varepsilon_0 R^3}$",
+            "D) $E = \\frac{Q}{4\\pi \\varepsilon_0 R^2}$"
+          ],
+          "correctAnswer": "B) $E = 0$"
+        },
+        {
+          "id": "fq3",
+          "text": "An electron of mass $m_e$ is accelerated from rest through a potential difference $V$. What is the de Broglie wavelength $\\lambda$ of the electron?",
+          "type": "multiple-choice",
+          "options": [
+            "A) $\\lambda = \\frac{h}{\\sqrt{2m_e eV}}$",
+            "B) $\\lambda = \\frac{h}{2m_e eV}$",
+            "C) $\\lambda = \\frac{\\hbar}{\\sqrt{2m_e eV}}$",
+            "D) $\\lambda = \\frac{h}{\\sqrt{m_e eV}}$"
+          ],
+          "correctAnswer": "A) $\\lambda = \\frac{h}{\\sqrt{2m_e eV}}$"
+        },
+        {
+          "id": "fq4",
+          "text": "A heat engine operates between a hot reservoir at temperature $T_H$ and a cold reservoir at temperature $T_C$. What is the maximum possible thermodynamic efficiency $\\eta$ of this engine?",
+          "type": "multiple-choice",
+          "options": [
+            "A) $\\eta = 1 - \\frac{T_C}{T_H}$",
+            "B) $\\eta = 1 - \\frac{T_H}{T_C}$",
+            "C) $\\eta = \\frac{T_C}{T_H}$",
+            "D) $\\eta = 1 + \\frac{T_C}{T_H}$"
+          ],
+          "correctAnswer": "A) $\\eta = 1 - \\frac{T_C}{T_H}$"
+        },
+        {
+          "id": "fq5",
+          "text": "In a Young's double-slit experiment, the slit separation is $d$ and the distance to the screen is $L$. If light of wavelength $\\lambda$ is used, what is the distance $y$ from the central bright fringe to the $m$-th order bright fringe (assuming small angle approximation)?",
+          "type": "multiple-choice",
+          "options": [
+            "A) $y = \\frac{m \\lambda L}{d}$",
+            "B) $y = \\frac{m \\lambda d}{L}$",
+            "C) $y = \\frac{(m + 1/2) \\lambda L}{d}$",
+            "D) $y = \\frac{m^2 \\lambda L}{d}$"
+          ],
+          "correctAnswer": "A) $y = \\frac{m \\lambda L}{d}$"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true
+    },
+    {
+      "id": "quiz-1781457329936-wi3wat",
+      "title": "hisob oraliq nazorat",
+      "description": "nazorat bor",
+      "timeLimit": 40,
+      "deadline": "2026-06-21T17:15:29.936Z",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Ushbu $\\int \\frac{1}{\\sqrt{9 - x^2}} dx$ jadval integralini hisoblang.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $\\arcsin\\frac{x}{3} + C$",
+            "B) $\\frac{1}{3}\\arcsin\\frac{x}{3} + C$",
+            "C) $\\ln|x + \\sqrt{9 - x^2}| + C$",
+            "D) $\\arctan\\frac{x}{3} + C$"
+          ],
+          "correctAnswer": "A) $\\arcsin\\frac{x}{3} + C$"
+        },
+        {
+          "id": "q2",
+          "text": "Ushbu $\\int 5^x dx$ ko'rsatkichli funksiya integralini toping.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $\\frac{5^x}{\\ln 5} + C$",
+            "B) $5^x \\ln 5 + C$",
+            "C) $\\frac{5^{x+1}}{x+1} + C$",
+            "D) $5^x + C$"
+          ],
+          "correctAnswer": "A) $\\frac{5^x}{\\ln 5} + C$"
+        },
+        {
+          "id": "q3",
+          "text": "Ushbu $\\int \\frac{1}{x^2 + 16} dx$ integralni jadvallardan foydalanib toping.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $\\frac{1}{4} \\arctan \\frac{x}{4} + C$",
+            "B) $\\arctan \\frac{x}{4} + C$",
+            "C) $\\frac{1}{2} \\arctan \\frac{x}{2} + C$",
+            "D) $\\frac{1}{4} \\ln|x^2 + 16| + C$"
+          ],
+          "correctAnswer": "A) $\\frac{1}{4} \\arctan \\frac{x}{4} + C$"
+        },
+        {
+          "id": "q4",
+          "text": "Trigonometrik integrallar jadvalidan foydalanib, $\\int \\frac{1}{\\cos^2 x} dx$ integralni toping.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $\\tan x + C$",
+            "B) $-\\cot x + C$",
+            "C) $\\sin x + C$",
+            "D) $\\frac{1}{\\cos x} + C$"
+          ],
+          "correctAnswer": "A) $\\tan x + C$"
+        },
+        {
+          "id": "q5",
+          "text": "Quyidagi integrallar jadvaliga tegishli $\\int \\frac{1}{\\sqrt{x^2 + 5}} dx$ integralning qiymatini ko'rsating.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $\\ln|x + \\sqrt{x^2 + 5}| + C$",
+            "B) $\\arcsin\\frac{x}{\\sqrt{5}} + C$",
+            "C) $\\frac{1}{\\sqrt{5}} \\ln|x + \\sqrt{x^2 + 5}| + C$",
+            "D) $\\ln|x - \\sqrt{x^2 + 5}| + C$"
+          ],
+          "correctAnswer": "A) $\\ln|x + \\sqrt{x^2 + 5}| + C$"
+        },
+        {
+          "id": "q6",
+          "text": "Ushbu $\\int \\frac{1}{x^2 - 9} dx$ integralni jadval formulasi bo'yicha hisoblang.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $\\frac{1}{6} \\ln\\left|\\frac{x-3}{x+3}\\right| + C$",
+            "B) $\\frac{1}{3} \\ln\\left|\\frac{x-3}{x+3}\\right| + C$",
+            "C) $\\frac{1}{6} \\ln\\left|\\frac{x+3}{x-3}\\right| + C$",
+            "D) $\\frac{1}{3} \\arctan\\frac{x}{3} + C$"
+          ],
+          "correctAnswer": "A) $\\frac{1}{6} \\ln\\left|\\frac{x-3}{x+3}\\right| + C$"
+        },
+        {
+          "id": "q7",
+          "text": "Giperbolik funksiyalar jadvaliga ko'ra, $\\int \\sinh x dx$ integralining boshlang'ich funksiyasini toping.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $\\cosh x + C$",
+            "B) $-\\cosh x + C$",
+            "C) $\\sinh x + C$",
+            "D) $\\tanh x + C$"
+          ],
+          "correctAnswer": "A) $\\cosh x + C$"
+        },
+        {
+          "id": "q8",
+          "text": "Standart integrallar jadvalidan foydalanib, $\\int \\cot x dx$ integralini hisoblang.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $\\ln|\\sin x| + C$",
+            "B) $-\\ln|\\cos x| + C$",
+            "C) $\\ln|\\cos x| + C$",
+            "D) $-\\csc^2 x + C$"
+          ],
+          "correctAnswer": "A) $\\ln|\\sin x| + C$"
+        },
+        {
+          "id": "q9",
+          "text": "Trigonometrik integrallar jadvalidan foydalanib, $\\int \\frac{1}{\\sin^2 x} dx$ integralini hisoblang.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $-\\cot x + C$",
+            "B) $\\cot x + C$",
+            "C) $\\tan x + C$",
+            "D) $-\\frac{1}{\\sin x} + C$"
+          ],
+          "correctAnswer": "A) $-\\cot x + C$"
+        },
+        {
+          "id": "q10",
+          "text": "Darajali funksiyalar integrali jadvaliga ko'ra, $\\int \\frac{1}{\\sqrt{x}} dx$ integralini hisoblang.",
+          "type": "multiple-choice",
+          "options": [
+            "A) $2\\sqrt{x} + C$",
+            "B) $\\frac{1}{2\\sqrt{x}} + C$",
+            "C) $\\sqrt{x} + C$",
+            "D) $\\frac{2}{3}x^{3/2} + C$"
+          ],
+          "correctAnswer": "A) $2\\sqrt{x} + C$"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true
+    },
+    {
+      "id": "quiz-1781425150323-pdir4u",
+      "title": "oraliq nazoart",
+      "description": "fizika — magnit maydoni",
+      "timeLimit": 30,
+      "deadline": "2026-06-21T08:19:10.324Z",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Cheksiz to'g'ri o'tkazgichdan I tok o'tmoqda. O'tkazgichdan r masofadagi nuqtadagi magnit maydon induksiyasi B qanday aniqlanadi (muhit vakuum deb olinsun)?",
+          "type": "multiple-choice",
+          "options": [
+            "A) B = (mu_0 * I) / (2 * pi * r)",
+            "B) B = (mu_0 * I) / (2 * r)",
+            "C) B = (mu_0 * I) / (4 * pi * r^2)",
+            "D) B = mu_0 * n * I"
+          ],
+          "correctAnswer": "A) B = (mu_0 * I) / (2 * pi * r)"
+        },
+        {
+          "id": "q2",
+          "text": "Zaryadi q va massasi m bo'lgan zarracha induksiyasi B bo'lgan bir jinsli magnit maydoniga perpendikulyar tezlik (v) bilan kirganda, uning aylana bo'ylab harakatlanish trayektoriya radiusi R qaysi ifoda orqali aniqlanadi?",
+          "type": "multiple-choice",
+          "options": [
+            "A) R = (m * v) / (q * B)",
+            "B) R = (q * B) / (m * v)",
+            "C) R = (m * v^2) / (q * B)",
+            "D) R = m / (q * B * v)"
+          ],
+          "correctAnswer": "A) R = (m * v) / (q * B)"
+        },
+        {
+          "id": "q3",
+          "text": "Uzunligi L, undan o'tayotgan tok kuchi I bo'lgan to'g'ri o'tkazgich induksiyasi B bo'lgan bir jinsli magnit maydonida joylashgan. O'tkazgich va magnit induksiya vektori orasidagi burchak alfa bo'lsa, o'tkazgichga ta'sir etuvchi Amper kuchi qaysi formula bilan aniqlanadi?",
+          "type": "multiple-choice",
+          "options": [
+            "A) F = I * B * L * sin(alfa)",
+            "B) F = I * B * L * cos(alfa)",
+            "C) F = (I * B / L) * sin(alfa)",
+            "D) F = I^2 * B * L * sin(alfa)"
+          ],
+          "correctAnswer": "A) F = I * B * L * sin(alfa)"
+        },
+        {
+          "id": "q4",
+          "text": "Yassi yuzali kontur (yuzi S) induksiyasi B bo'lgan bir jinsli magnit maydonida joylashgan. Agar kontur yuzasining normali magnit induksiya vektori bilan teta burchak tashkil qilsa, ushbu sirt orqali o'tayotgan magnit oqimi (Phi) nimaga teng?",
+          "type": "multiple-choice",
+          "options": [
+            "A) Phi = B * S * cos(teta)",
+            "B) Phi = B * S * sin(teta)",
+            "C) Phi = (B / S) * cos(teta)",
+            "D) Phi = B * S * tan(teta)"
+          ],
+          "correctAnswer": "A) Phi = B * S * cos(teta)"
+        },
+        {
+          "id": "q5",
+          "text": "Magnit maydonining energiya zichligi (w) qaysi formula orqali aniqlanadi (bu yerda B - magnit induksiyasi, mu_0 - magnit doimiysi, mu - muhitning nisbiy magnit singdiruvchanligi)?",
+          "type": "multiple-choice",
+          "options": [
+            "A) w = B^2 / (2 * mu_0 * mu)",
+            "B) w = (mu_0 * mu * B^2) / 2",
+            "C) w = B / (2 * mu_0 * mu)",
+            "D) w = (B^2 * mu_0) / (2 * mu)"
+          ],
+          "correctAnswer": "A) w = B^2 / (2 * mu_0 * mu)"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true
+    },
+    {
+      "id": "quiz-1781422182502-ouzrvf",
+      "title": "sinov",
+      "description": "tekshiruv kuchli",
+      "timeLimit": 60,
+      "deadline": "2026-06-21T07:29:42.504Z",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "[ADVANCED] integrallar jadvali haqida 1-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q2",
+          "text": "[ADVANCED] integrallar jadvali haqida 2-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q3",
+          "text": "[ADVANCED] integrallar jadvali haqida 3-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q4",
+          "text": "[ADVANCED] integrallar jadvali haqida 4-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q5",
+          "text": "[ADVANCED] integrallar jadvali haqida 5-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q6",
+          "text": "[ADVANCED] integrallar jadvali haqida 6-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q7",
+          "text": "[ADVANCED] integrallar jadvali haqida 7-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q8",
+          "text": "[ADVANCED] integrallar jadvali haqida 8-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q9",
+          "text": "[ADVANCED] integrallar jadvali haqida 9-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q10",
+          "text": "[ADVANCED] integrallar jadvali haqida 10-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q11",
+          "text": "[ADVANCED] integrallar jadvali haqida 11-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q12",
+          "text": "[ADVANCED] integrallar jadvali haqida 12-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q13",
+          "text": "[ADVANCED] integrallar jadvali haqida 13-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q14",
+          "text": "[ADVANCED] integrallar jadvali haqida 14-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        },
+        {
+          "id": "q15",
+          "text": "[ADVANCED] integrallar jadvali haqida 15-savol: Quyidagi tushunchalardan qaysi biri \"integrallar jadvali\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) integrallar jadvali ning asosiy ta'rifi",
+            "B) integrallar jadvali ning qo'llanilishi",
+            "C) integrallar jadvali bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) integrallar jadvali ning asosiy ta'rifi"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true
+    },
+    {
+      "id": "quiz-1781167864490-w6yjxe",
+      "title": "yakuniy",
+      "description": "tekshiruv kuchli",
+      "timeLimit": 30,
+      "deadline": "2026-06-18T08:51:04.490Z",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "[ADVANCED] magnit maydoni  haqida 1-savol: Quyidagi tushunchalardan qaysi biri \"magnit maydoni \" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) magnit maydoni  ning asosiy ta'rifi",
+            "B) magnit maydoni  ning qo'llanilishi",
+            "C) magnit maydoni  bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) magnit maydoni  ning asosiy ta'rifi"
+        },
+        {
+          "id": "q2",
+          "text": "[ADVANCED] magnit maydoni  haqida 2-savol: Quyidagi tushunchalardan qaysi biri \"magnit maydoni \" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) magnit maydoni  ning asosiy ta'rifi",
+            "B) magnit maydoni  ning qo'llanilishi",
+            "C) magnit maydoni  bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) magnit maydoni  ning asosiy ta'rifi"
+        },
+        {
+          "id": "q3",
+          "text": "[ADVANCED] magnit maydoni  haqida 3-savol: Quyidagi tushunchalardan qaysi biri \"magnit maydoni \" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) magnit maydoni  ning asosiy ta'rifi",
+            "B) magnit maydoni  ning qo'llanilishi",
+            "C) magnit maydoni  bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) magnit maydoni  ning asosiy ta'rifi"
+        },
+        {
+          "id": "q4",
+          "text": "[ADVANCED] magnit maydoni  haqida 4-savol: Quyidagi tushunchalardan qaysi biri \"magnit maydoni \" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) magnit maydoni  ning asosiy ta'rifi",
+            "B) magnit maydoni  ning qo'llanilishi",
+            "C) magnit maydoni  bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) magnit maydoni  ning asosiy ta'rifi"
+        },
+        {
+          "id": "q5",
+          "text": "[ADVANCED] magnit maydoni  haqida 5-savol: Quyidagi tushunchalardan qaysi biri \"magnit maydoni \" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) magnit maydoni  ning asosiy ta'rifi",
+            "B) magnit maydoni  ning qo'llanilishi",
+            "C) magnit maydoni  bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) magnit maydoni  ning asosiy ta'rifi"
+        },
+        {
+          "id": "q6",
+          "text": "[ADVANCED] magnit maydoni  haqida 6-savol: Quyidagi tushunchalardan qaysi biri \"magnit maydoni \" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) magnit maydoni  ning asosiy ta'rifi",
+            "B) magnit maydoni  ning qo'llanilishi",
+            "C) magnit maydoni  bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) magnit maydoni  ning asosiy ta'rifi"
+        },
+        {
+          "id": "q7",
+          "text": "[ADVANCED] magnit maydoni  haqida 7-savol: Quyidagi tushunchalardan qaysi biri \"magnit maydoni \" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) magnit maydoni  ning asosiy ta'rifi",
+            "B) magnit maydoni  ning qo'llanilishi",
+            "C) magnit maydoni  bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) magnit maydoni  ning asosiy ta'rifi"
+        },
+        {
+          "id": "q8",
+          "text": "[ADVANCED] magnit maydoni  haqida 8-savol: Quyidagi tushunchalardan qaysi biri \"magnit maydoni \" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) magnit maydoni  ning asosiy ta'rifi",
+            "B) magnit maydoni  ning qo'llanilishi",
+            "C) magnit maydoni  bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) magnit maydoni  ning asosiy ta'rifi"
+        },
+        {
+          "id": "q9",
+          "text": "[ADVANCED] magnit maydoni  haqida 9-savol: Quyidagi tushunchalardan qaysi biri \"magnit maydoni \" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) magnit maydoni  ning asosiy ta'rifi",
+            "B) magnit maydoni  ning qo'llanilishi",
+            "C) magnit maydoni  bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) magnit maydoni  ning asosiy ta'rifi"
+        },
+        {
+          "id": "q10",
+          "text": "[ADVANCED] magnit maydoni  haqida 10-savol: Quyidagi tushunchalardan qaysi biri \"magnit maydoni \" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) magnit maydoni  ning asosiy ta'rifi",
+            "B) magnit maydoni  ning qo'llanilishi",
+            "C) magnit maydoni  bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) magnit maydoni  ning asosiy ta'rifi"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true
+    },
+    {
+      "id": "quiz-1780936424515-mgedg3",
+      "title": "yakuniy nazorat",
+      "description": "nazorat kuchli ",
+      "timeLimit": 60,
+      "deadline": "2026-06-15T16:33:44.515Z",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "[ADVANCED] sharq falsafasi haqida 1-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q2",
+          "text": "[ADVANCED] sharq falsafasi haqida 2-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q3",
+          "text": "[ADVANCED] sharq falsafasi haqida 3-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q4",
+          "text": "[ADVANCED] sharq falsafasi haqida 4-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q5",
+          "text": "[ADVANCED] sharq falsafasi haqida 5-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q6",
+          "text": "[ADVANCED] sharq falsafasi haqida 6-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q7",
+          "text": "[ADVANCED] sharq falsafasi haqida 7-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q8",
+          "text": "[ADVANCED] sharq falsafasi haqida 8-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q9",
+          "text": "[ADVANCED] sharq falsafasi haqida 9-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q10",
+          "text": "[ADVANCED] sharq falsafasi haqida 10-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q11",
+          "text": "[ADVANCED] sharq falsafasi haqida 11-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q12",
+          "text": "[ADVANCED] sharq falsafasi haqida 12-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q13",
+          "text": "[ADVANCED] sharq falsafasi haqida 13-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q14",
+          "text": "[ADVANCED] sharq falsafasi haqida 14-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        },
+        {
+          "id": "q15",
+          "text": "[ADVANCED] sharq falsafasi haqida 15-savol: Quyidagi tushunchalardan qaysi biri \"sharq falsafasi\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) sharq falsafasi ning asosiy ta'rifi",
+            "B) sharq falsafasi ning qo'llanilishi",
+            "C) sharq falsafasi bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) sharq falsafasi ning asosiy ta'rifi"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true
+    },
+    {
+      "id": "quiz-1780899291292-jz3hoj",
+      "title": "ksjbdvjk",
+      "description": "tekshiriv kuchli",
+      "timeLimit": 30,
+      "deadline": "2026-06-15T06:14:51.292Z",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "[ADVANCED] elektrotlar haqida 1-savol: Quyidagi tushunchalardan qaysi biri \"elektrotlar\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) elektrotlar ning asosiy ta'rifi",
+            "B) elektrotlar ning qo'llanilishi",
+            "C) elektrotlar bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) elektrotlar ning asosiy ta'rifi"
+        },
+        {
+          "id": "q2",
+          "text": "[ADVANCED] elektrotlar haqida 2-savol: Quyidagi tushunchalardan qaysi biri \"elektrotlar\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) elektrotlar ning asosiy ta'rifi",
+            "B) elektrotlar ning qo'llanilishi",
+            "C) elektrotlar bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) elektrotlar ning asosiy ta'rifi"
+        },
+        {
+          "id": "q3",
+          "text": "[ADVANCED] elektrotlar haqida 3-savol: Quyidagi tushunchalardan qaysi biri \"elektrotlar\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) elektrotlar ning asosiy ta'rifi",
+            "B) elektrotlar ning qo'llanilishi",
+            "C) elektrotlar bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) elektrotlar ning asosiy ta'rifi"
+        },
+        {
+          "id": "q4",
+          "text": "[ADVANCED] elektrotlar haqida 4-savol: Quyidagi tushunchalardan qaysi biri \"elektrotlar\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) elektrotlar ning asosiy ta'rifi",
+            "B) elektrotlar ning qo'llanilishi",
+            "C) elektrotlar bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) elektrotlar ning asosiy ta'rifi"
+        },
+        {
+          "id": "q5",
+          "text": "[ADVANCED] elektrotlar haqida 5-savol: Quyidagi tushunchalardan qaysi biri \"elektrotlar\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "A) elektrotlar ning asosiy ta'rifi",
+            "B) elektrotlar ning qo'llanilishi",
+            "C) elektrotlar bilan bog'liq misol",
+            "D) Hech biri to'g'ri emas"
+          ],
+          "correctAnswer": "A) elektrotlar ning asosiy ta'rifi"
+        },
+        {
+          "id": "q-1781554386101-9rdd",
+          "text": "[ADVANCED] elektrotlar haqida 1-savol: Quyidagi tushunchalardan qaysi biri \"elektrotlar\" mavzusiga to'g'ridan-to'g'ri aloqador?",
+          "type": "multiple-choice",
+          "options": [
+            "togri javob",
+            "notogri",
+            "notogri",
+            "notogri"
+          ],
+          "correctAnswer": "togri javob"
+        },
+        {
+          "id": "q-1781554485301-4705",
+          "text": "Ideal gazning ichki energiyasi faqat ... ga bog‘liq.",
+          "type": "multiple-choice",
+          "options": [
+            "A) bosimga B) hajmga C) temperaturaga D) zichlikka",
+            "A) bosimga B) hajmga C) temperaturaga D) zichlikka",
+            "A) bosimga B) hajmga C) temperaturaga D) zichlikka",
+            "A) bosimga B) hajmga C) temperaturaga D) zichlikka"
+          ],
+          "correctAnswer": "A) bosimga B) hajmga C) temperaturaga D) zichlikka"
+        }
+      ],
+      "creator": "shoxxonerkhinov@gmail.com",
+      "isPrivate": true
+    }
+  ],
+  "attempts": [
+    {
+      "id": "att-1781602370293",
+      "assignmentId": "quiz-1781596034379-8lebta",
+      "assignmentTitle": "tarix",
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "answers": {
+        "q1": "A) 1526-yil 21-aprel",
+        "q2": "A) Qanuj jangi (1540-yil)",
+        "q3": "A) \"Din-i ilohiy\"",
+        "q4": "A) Mansabdorlik (Mansabdari) tizimi",
+        "q5": "A) Toj Mahal",
+        "q6": "A) Aurangzeb (Olamgir)",
+        "q7": "A) \"Boburnoma\"",
+        "q8": "A) 1857-1858 yillardagi xalq qo'zg'oloni (Sipohiylar qo'zg'oloni)",
+        "q9": "A) Nuriddin Muhammad Jahongir"
+      },
+      "score": 90,
+      "maxScore": 100,
+      "aiFeedback": "Tarix fanidan topshirilgan ushbu testda barcha savollarga toʻgʻri javob berib, Boburiylar davlati tarixi boʻyicha yuksak bilimingizni namoyish etdingiz. Harbiy islohotlar, sulolaning madaniy hayoti va siyosiy inqirozi davrlariga oid ma'lumotlarni juda yaxshi oʻzlashtirganingiz ko'rinib turibdi. Kelgusida tarixiy jarayonlarning sabab-oqibat aloqalarini yanada chuqurroq tahlil qilish ustida ishlash orqali bilimlaringizni yanada boyitishingiz mumkin.",
+      "submittedAt": "2026-06-16T09:32:50.293Z",
+      "cheatingScore": 0,
+      "timeSpent": 18,
+      "group": "082-025"
+    },
+    {
+      "id": "att-1781601986438",
+      "assignmentId": "file-quiz-1781601914348-qgubw7",
+      "assignmentTitle": "Magnit maydon va uning xarakteristikalari (Magnit induksiyasi, Amper kuchi)",
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "answers": {
+        "fq1": "A) Magnit maydonni tasavvur qila olish uchun",
+        "fq2": "A) Tesla",
+        "fq3": "A) Harakatdagi zaryadli zarralar, tokli o'tkazgich, doimiy magnitlar, o'zgaruvchan tok o'tayotgan o'tkazgich",
+        "fq4": "A) $B = \\frac{\\mu_0 I}{2R}$",
+        "fq5": "A) $B = \\frac{\\mu_0 I}{2\\pi r}$",
+        "fq6": "A) $B = \\mu_0 \\frac{N}{l} I$",
+        "fq7": "A) O'ng qo'limiz bosh barmoq $90^\\circ$ ga ochiladi to'rtala barmoq tok yo'nalishiga qo'yilganda bosh barmoq $B$ ni yo'nalishini ko'rsatadi",
+        "fq8": "A) Tokli o'tkazgich atrofida paydo bo'ladigan kuch",
+        "fq9": "A) $F_A = I B l \\sin\\alpha$",
+        "fq10": "A) O'ng qo'limiz kaftiga magnit induksiya vektori kiradigan qilib joylashtiramiz va to'rtala barmoq tokni yo'nalishiga moslab qo'yilganda $90^\\circ$ ga ochilgan bosh barmoq Amper kuchini yo'nalishini ko'rsatadi",
+        "fq11": "A) $0.4$",
+        "fq12": "A) $0.4$",
+        "fq13": "A) $4 \\times 10^{-5}$",
+        "fq14": "A) $3 \\times 10^{-5}$",
+        "fq15": "A) $5 \\times 10^{-3}$"
+      },
+      "score": 110,
+      "maxScore": 100,
+      "aiFeedback": "Siz «Magnit maydon va uning xarakteristikalari (Magnit induksiyasi, Amper kuchi)» mavzusidagi matematik formulalar va hisob-kitob topshiriqlarini juda yaxshi bajargansiz. Biroq, magnit maydon yo'nalishini aniqlash qoidalari hamda ba'zi nazariy ta'riflarda (Amper kuchi ta'rifi va kuch chiziqlari vazifasi) xatoliklarga yo'l qo'ygansiz. Keyingi darslarda o'ng qo'l va chap qo'l qoidalarining amaliy tatbiqiga ko'proq e'tibor qaratishingizni tavsiya qilaman.",
+      "submittedAt": "2026-06-16T09:26:26.438Z",
+      "cheatingScore": 0,
+      "timeSpent": 21,
+      "group": "112-152"
+    },
+    {
+      "id": "att-1781598928357",
+      "assignmentId": "quiz-1781596034379-8lebta",
+      "assignmentTitle": "tarix",
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "answers": {
+        "q1": "A) 1526-yil 21-aprel",
+        "q2": "B) Panipat jangi (1526-yil)",
+        "q3": "C) \"Tavhidi vujud\"",
+        "q4": "A) Mansabdorlik (Mansabdari) tizimi",
+        "q5": "A) Toj Mahal",
+        "q6": "A) Aurangzeb (Olamgir)",
+        "q7": "B) \"Mubayyin\"",
+        "q8": "B) 1757-yilgi Plessi jangi",
+        "q9": "C) Humoyun"
+      },
+      "score": 50,
+      "maxScore": 100,
+      "aiFeedback": "Tarix fani boʻyicha topshirgan testingizda Boburiylar saltanatining yuksalishi, meʼmorchiligi va maʼmuriy tizimiga oid savollarga juda toʻgʻri javob berdingiz. Biroq, sulola hukmdorlarining madaniy islohotlari, adabiy merosi va inqiroz davri voqealarini (ayniqsa, Humoyunshoh, Akbarshoh va Jahongir davrini) mukammalroq oʻrganishingiz kerak. Kelgusi sinovlarda natijangizni yanada yaxshilash uchun tarixiy manbalarni qayta takrorlashni tavsiya qilaman.",
+      "submittedAt": "2026-06-16T08:35:28.357Z",
+      "cheatingScore": 0,
+      "timeSpent": 21
+    },
+    {
+      "id": "att-1781548825860",
+      "assignmentId": "file-quiz-1781547503040-gubjrw",
+      "assignmentTitle": "Introductory and Modern Physics",
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "answers": {
+        "fq1": "A) $H = \\frac{v_0^2 \\sin^2\\theta}{2g}$",
+        "fq2": "A) $E = \\frac{Q}{4\\pi \\varepsilon_0 r^2}$",
+        "fq3": "A) $\\lambda = \\frac{h}{\\sqrt{2m_e eV}}$",
+        "fq4": "A) $\\eta = 1 - \\frac{T_C}{T_H}$",
+        "fq5": "A) $y = \\frac{m \\lambda L}{d}$"
+      },
+      "score": 80,
+      "maxScore": 100,
+      "aiFeedback": "Tizim offline / mock rejimda baholadi.",
+      "submittedAt": "2026-06-15T18:40:25.860Z",
+      "cheatingScore": 20,
+      "timeSpent": 16
+    },
+    {
+      "id": "att-1781426664486",
+      "assignmentId": "quiz-1781422182502-ouzrvf",
+      "assignmentTitle": "sinov",
+      "studentName": "abdulhay jo'rayev",
+      "studentEmail": "abdulhayjorayev@gmail.com",
+      "answers": {
+        "q1": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q2": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q3": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q4": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q5": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q6": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q7": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q8": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q9": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q10": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q11": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q12": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q13": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q14": "A) integrallar jadvali ning asosiy ta'rifi",
+        "q15": "A) integrallar jadvali ning asosiy ta'rifi"
+      },
+      "score": 150,
+      "maxScore": 100,
+      "aiFeedback": "Ushbu sinov jarayonida integrallar jadvali mavzusiga doir barcha savollarga juda aniq va xatosiz javob berganingiz tahsinga loyiq. Siz mavzuning nazariy asoslarini mukammal darajada o'zlashtirganingizni to'liq isbotlay oldingiz. Kelgusi sinovlarda yanada murakkab amaliy integrallash topshiriqlari ustida ishlab, bilimingizni yanada mustahkamlashingizni tavsiya qilaman.",
+      "submittedAt": "2026-06-14T08:44:24.486Z",
+      "cheatingScore": 0,
+      "timeSpent": 48
+    },
+    {
+      "id": "att-1781168101409",
+      "assignmentId": "quiz-1781167864490-w6yjxe",
+      "assignmentTitle": "yakuniy",
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780936471447@gmail.com",
+      "answers": {
+        "q1": "A) magnit maydoni  ning asosiy ta'rifi",
+        "q2": "A) magnit maydoni  ning asosiy ta'rifi",
+        "q3": "A) magnit maydoni  ning asosiy ta'rifi",
+        "q4": "A) magnit maydoni  ning asosiy ta'rifi",
+        "q5": "A) magnit maydoni  ning asosiy ta'rifi",
+        "q6": "A) magnit maydoni  ning asosiy ta'rifi",
+        "q7": "A) magnit maydoni  ning asosiy ta'rifi",
+        "q8": "A) magnit maydoni  ning asosiy ta'rifi",
+        "q9": "A) magnit maydoni  ning asosiy ta'rifi",
+        "q10": "A) magnit maydoni  ning asosiy ta'rifi"
+      },
+      "score": 100,
+      "maxScore": 100,
+      "aiFeedback": "Siz \"yakuniy\" mavzusidan 10/10 to'g'ri javob berdingiz. Yaxshi natija! Davom eting.",
+      "submittedAt": "2026-06-11T08:55:01.409Z",
+      "cheatingScore": 80,
+      "timeSpent": 97
+    },
+    {
+      "id": "att-1780936545553",
+      "assignmentId": "quiz-1780936424515-mgedg3",
+      "assignmentTitle": "yakuniy nazorat",
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780936471447@gmail.com",
+      "answers": {
+        "q2": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q15": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q14": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q13": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q12": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q11": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q10": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q9": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q8": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q7": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q6": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q5": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q4": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q3": "A) sharq falsafasi ning asosiy ta'rifi",
+        "q1": "A) sharq falsafasi ning asosiy ta'rifi"
+      },
+      "score": 150,
+      "maxScore": 100,
+      "aiFeedback": "Siz \"yakuniy nazorat\" mavzusidan 15/15 to'g'ri javob berdingiz. Yaxshi natija! Davom eting.",
+      "submittedAt": "2026-06-08T16:35:45.553Z",
+      "cheatingScore": 0,
+      "timeSpent": 50
+    },
+    {
+      "id": "att-1780900744161",
+      "assignmentId": "quiz-1780899291292-jz3hoj",
+      "assignmentTitle": "ksjbdvjk",
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780899367431@gmail.com",
+      "answers": {
+        "q1": "A) elektrotlar ning asosiy ta'rifi",
+        "q2": "A) elektrotlar ning asosiy ta'rifi",
+        "q3": "A) elektrotlar ning asosiy ta'rifi",
+        "q4": "A) elektrotlar ning asosiy ta'rifi",
+        "q5": "A) elektrotlar ning asosiy ta'rifi"
+      },
+      "score": 50,
+      "maxScore": 100,
+      "aiFeedback": "Siz \"ksjbdvjk\" mavzusidan 5/5 to'g'ri javob berdingiz. Yaxshi natija! Davom eting.",
+      "submittedAt": "2026-06-08T06:39:04.162Z",
+      "cheatingScore": 0,
+      "timeSpent": 13
+    }
+  ],
+  "cheatingLogs": [
+    {
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "assignmentTitle": "tarix",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1781602363352-q9okbjo3m",
+      "timestamp": "2026-06-16T09:32:43.352Z"
+    },
+    {
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "assignmentTitle": "Magnit maydon va uning xarakteristikalari (Magnit induksiyasi, Amper kuchi)",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab blurred)",
+      "id": "log-1781601993170-alnf7uoq1",
+      "timestamp": "2026-06-16T09:26:33.170Z"
+    },
+    {
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "assignmentTitle": "Magnit maydon va uning xarakteristikalari (Magnit induksiyasi, Amper kuchi)",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1781601975687-0d9ran146",
+      "timestamp": "2026-06-16T09:26:15.687Z"
+    },
+    {
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "assignmentTitle": "tarix",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1781598930774-w6oc1pb7e",
+      "timestamp": "2026-06-16T08:35:30.774Z"
+    },
+    {
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "assignmentTitle": "tarix",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab blurred)",
+      "id": "log-1781598930726-bhl1d1rch",
+      "timestamp": "2026-06-16T08:35:30.726Z"
+    },
+    {
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "assignmentTitle": "tarix",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1781598915536-2yz9dqey2",
+      "timestamp": "2026-06-16T08:35:15.536Z"
+    },
+    {
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "assignmentTitle": "Introductory and Modern Physics",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1781548806570-4qxfpdw3q",
+      "timestamp": "2026-06-15T18:40:06.570Z"
+    },
+    {
+      "studentName": "shohjahon erkinov",
+      "studentEmail": "shohkxanerkhinov@gmail.com",
+      "assignmentTitle": "Introductory and Modern Physics",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab blurred)",
+      "id": "log-1781548801528-vgh90oehm",
+      "timestamp": "2026-06-15T18:40:01.529Z"
+    },
+    {
+      "studentName": "abdulhay jo'rayev",
+      "studentEmail": "abdulhayjorayev@gmail.com",
+      "assignmentTitle": "hisob oraliq nazorat",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1781458934739-j7jul4zw6",
+      "timestamp": "2026-06-14T17:42:14.739Z"
+    },
+    {
+      "studentName": "abdulhay jo'rayev",
+      "studentEmail": "abdulhayjorayev@gmail.com",
+      "assignmentTitle": "hisob oraliq nazorat",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1781458929430-69czh0icj",
+      "timestamp": "2026-06-14T17:42:09.430Z"
+    },
+    {
+      "studentName": "abdulhay jo'rayev",
+      "studentEmail": "abdulhayjorayev@gmail.com",
+      "assignmentTitle": "sinov",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab blurred)",
+      "id": "log-1781426669373-08ygdigy8",
+      "timestamp": "2026-06-14T08:44:29.373Z"
+    },
+    {
+      "studentName": "abdulhay jo'rayev",
+      "studentEmail": "abdulhayjorayev@gmail.com",
+      "assignmentTitle": "sinov",
+      "eventType": "shortcut",
+      "details": "Right click context menu is disabled.",
+      "id": "log-1781426661220-76zzfx0oj",
+      "timestamp": "2026-06-14T08:44:21.220Z"
+    },
+    {
+      "studentName": "abdulhay jo'rayev",
+      "studentEmail": "abdulhayjorayev@gmail.com",
+      "assignmentTitle": "sinov",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1781426656029-cu241adzn",
+      "timestamp": "2026-06-14T08:44:16.031Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780936471447@gmail.com",
+      "assignmentTitle": "yakuniy",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab blurred)",
+      "id": "log-1781168112759-q0hj1a9x1",
+      "timestamp": "2026-06-11T08:55:12.760Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780936471447@gmail.com",
+      "assignmentTitle": "yakuniy",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1781168101443-0hy1b93ne",
+      "timestamp": "2026-06-11T08:55:01.443Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780936471447@gmail.com",
+      "assignmentTitle": "yakuniy",
+      "eventType": "shortcut",
+      "details": "Right click context menu is disabled.",
+      "id": "log-1781168067202-01ouflii3",
+      "timestamp": "2026-06-11T08:54:27.202Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780936471447@gmail.com",
+      "assignmentTitle": "yakuniy",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab hidden)",
+      "id": "log-1781168044909-e39rkt7kb",
+      "timestamp": "2026-06-11T08:54:04.909Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780936471447@gmail.com",
+      "assignmentTitle": "yakuniy",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab blurred)",
+      "id": "log-1781168044713-pc4d9lsxf",
+      "timestamp": "2026-06-11T08:54:04.713Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780936471447@gmail.com",
+      "assignmentTitle": "yakuniy",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab blurred)",
+      "id": "log-1781168023622-qm1ce8ia4",
+      "timestamp": "2026-06-11T08:53:43.626Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780936471447@gmail.com",
+      "assignmentTitle": "yakuniy nazorat",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab blurred)",
+      "id": "log-1780936548208-wlw4tmpr6",
+      "timestamp": "2026-06-08T16:35:48.208Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780936471447@gmail.com",
+      "assignmentTitle": "yakuniy nazorat",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1780936546003-nxd5lkgfp",
+      "timestamp": "2026-06-08T16:35:46.008Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780899367431@gmail.com",
+      "assignmentTitle": "ksjbdvjk",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab blurred)",
+      "id": "log-1780900746436-ftvxrtv59",
+      "timestamp": "2026-06-08T06:39:06.436Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780899367431@gmail.com",
+      "assignmentTitle": "ksjbdvjk",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1780900744204-6yxbgjuc1",
+      "timestamp": "2026-06-08T06:39:04.205Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780899367431@gmail.com",
+      "assignmentTitle": "ksjbdvjk",
+      "eventType": "fullscreen-exit",
+      "details": "Diqqat! Fullscreen rejimidan chiqdingiz",
+      "id": "log-1780899467903-id0e84s6s",
+      "timestamp": "2026-06-08T06:17:47.903Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780899367431@gmail.com",
+      "assignmentTitle": "ksjbdvjk",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab hidden)",
+      "id": "log-1780899449390-xamfwd2fx",
+      "timestamp": "2026-06-08T06:17:29.390Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780899367431@gmail.com",
+      "assignmentTitle": "ksjbdvjk",
+      "eventType": "tab-switch",
+      "details": "Boshqa oynalarga yoki tabga o'tmang. (Tab blurred)",
+      "id": "log-1780899449046-ei9snomzr",
+      "timestamp": "2026-06-08T06:17:29.047Z"
+    },
+    {
+      "studentName": "Google Foydalanuvchi",
+      "studentEmail": "google.1780899367431@gmail.com",
+      "assignmentTitle": "ksjbdvjk",
+      "eventType": "copy-paste",
+      "details": "Ctrl+C, Ctrl+V kabi ko'chirish tugmalaridan foydalanmang.",
+      "id": "log-1780899440241-n47eigly7",
+      "timestamp": "2026-06-08T06:17:20.242Z"
+    }
+  ]
+}
