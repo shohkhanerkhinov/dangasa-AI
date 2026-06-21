@@ -76,13 +76,6 @@ export default function RegisterPage() {
       return;
     }
 
-    // Password strength: uppercase, lowercase, number, special character
-    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&._\-#]).{8,}$/;
-    if (!passwordRegex.test(trimmedPassword)) {
-      setError(t(language, 'auth_error_weak_pass'));
-      return;
-    }
-
     // If it's a Gmail address, force the user to authenticate via Google OAuth to verify identity
     if (trimmedEmail.endsWith('@gmail.com') || trimmedEmail.endsWith('@googlemail.com')) {
       setError(language === 'uz'
