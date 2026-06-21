@@ -76,16 +76,6 @@ export default function RegisterPage() {
       return;
     }
 
-    // If it's a Gmail address, force the user to authenticate via Google OAuth to verify identity
-    if (trimmedEmail.endsWith('@gmail.com') || trimmedEmail.endsWith('@googlemail.com')) {
-      setError(language === 'uz'
-        ? "Gmail manzillari uchun pastdagi 'Google' tugmasi orqali ro'yxatdan o'tish majburiy!"
-        : language === 'ru'
-        ? "Для адресов Gmail обязательна регистрация через кнопку 'Google' ниже!"
-        : "For Gmail addresses, registration via the 'Google' button below is mandatory!");
-      return;
-    }
-
     setLoading(true);
     await new Promise(r => setTimeout(r, 500));
     const result = await registerUser(trimmedName, trimmedEmail, trimmedPassword, role, level);
