@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getAttempts, addAttempt, readDb, writeDb, QuizAttempt } from '@/lib/db';
+import { getAttempts, addAttempt, findUserByEmail, updateUserXp, QuizAttempt } from '@/lib/db';
 
 export async function GET() {
   try {
-    const attempts = getAttempts();
+    const attempts = await getAttempts();
     return NextResponse.json({ success: true, attempts });
   } catch (error: any) {
     return NextResponse.json({ success: false, error: error.message || 'Server xatoligi' }, { status: 500 });
@@ -18,29 +18,24 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: false, error: 'Ma\'lumotlar to\'liq emas' }, { status: 400 });
     }
 
-    addAttempt(attempt);
+    await addAttempt(attempt);
 
     // Update user XP & Level in database too
-    const db = readDb();
-    const userIndex = db.registeredUsers.findIndex(
-      u => u.email.toLowerCase() === attempt.studentEmail.toLowerCase()
-    );
-
     let updatedUser = null;
-    if (userIndex !== -1) {
-      const u = db.registeredUsers[userIndex];
+    const user = await findUserByEmail(attempt.studentEmail);
+
+    if (user) {
       const xpEarned = Math.round((attempt.score || 0) * 1.5);
-      const newXp = u.xp + xpEarned;
+      const newXp = user.xp + xpEarned;
       const newLevel = Math.floor(newXp / 100) + 1;
 
-      db.registeredUsers[userIndex] = {
-        ...u,
+      await updateUserXp(attempt.studentEmail, newXp, newLevel);
+      
+      updatedUser = {
+        ...user,
         xp: newXp,
         levelNumber: newLevel
       };
-      
-      updatedUser = db.registeredUsers[userIndex];
-      writeDb(db);
     }
 
     return NextResponse.json({ success: true, attempt, updatedUser });

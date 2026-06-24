@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getUsers } from '@/lib/db';
+import { findUserByEmail } from '@/lib/db';
 
 export async function POST(req: NextRequest) {
   try {
@@ -10,8 +10,7 @@ export async function POST(req: NextRequest) {
     }
 
     const emailNormalized = email.toLowerCase().trim();
-    const users = getUsers();
-    const found = users.find(u => u.email.toLowerCase() === emailNormalized);
+    const found = await findUserByEmail(emailNormalized);
 
     if (!found) {
       return NextResponse.json({ success: false, error: 'auth_error_invalid' }, { status: 401 });

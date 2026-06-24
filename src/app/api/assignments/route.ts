@@ -3,7 +3,7 @@ import { getAssignments, addAssignment, Assignment } from '@/lib/db';
 
 export async function GET() {
   try {
-    const assignments = getAssignments();
+    const assignments = await getAssignments();
     return NextResponse.json({ success: true, assignments });
   } catch (error: any) {
     return NextResponse.json({ success: false, error: error.message || 'Server xatoligi' }, { status: 500 });
@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ success: false, error: 'Topshiriq ma\'lumotlari to\'liq emas' }, { status: 400 });
     }
 
-    addAssignment(assignment);
+    await addAssignment(assignment);
     return NextResponse.json({ success: true, assignment });
   } catch (error: any) {
     return NextResponse.json({ success: false, error: error.message || 'Server xatoligi' }, { status: 500 });

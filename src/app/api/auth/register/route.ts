@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getUsers, addUser, RegisteredUser } from '@/lib/db';
+import { findUserByEmail, addUser, RegisteredUser } from '@/lib/db';
 
 export async function POST(req: NextRequest) {
   try {
@@ -14,8 +14,7 @@ export async function POST(req: NextRequest) {
     }
 
     const emailNormalized = email.toLowerCase().trim();
-    const users = getUsers();
-    const existing = users.find(u => u.email.toLowerCase() === emailNormalized);
+    const existing = await findUserByEmail(emailNormalized);
 
     if (existing) {
       return NextResponse.json({ success: false, error: 'auth_error_exists' }, { status: 400 });
@@ -35,7 +34,7 @@ export async function POST(req: NextRequest) {
       levelNumber: 1,
     };
 
-    addUser(newUser);
+    await addUser(newUser);
 
     return NextResponse.json({
       success: true,

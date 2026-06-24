@@ -3,7 +3,7 @@ import { getCheatingLogs, addCheatingLog, CheatingLog } from '@/lib/db';
 
 export async function GET() {
   try {
-    const cheatingLogs = getCheatingLogs();
+    const cheatingLogs = await getCheatingLogs();
     return NextResponse.json({ success: true, cheatingLogs });
   } catch (error: any) {
     return NextResponse.json({ success: false, error: error.message || 'Server xatoligi' }, { status: 500 });
@@ -24,7 +24,7 @@ export async function POST(req: NextRequest) {
       timestamp: new Date().toISOString()
     };
 
-    addCheatingLog(log);
+    await addCheatingLog(log);
 
     return NextResponse.json({ success: true, log });
   } catch (error: any) {

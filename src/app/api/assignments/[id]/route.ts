@@ -13,7 +13,7 @@ export async function GET(
       return NextResponse.json({ success: false, error: 'ID talab qilinadi' }, { status: 400 });
     }
 
-    const assignment = getAssignmentById(id);
+    const assignment = await getAssignmentById(id);
 
     if (!assignment) {
       return NextResponse.json({ success: false, error: 'Topshiriq topilmadi' }, { status: 404 });
@@ -42,12 +42,12 @@ export async function PUT(
       return NextResponse.json({ success: false, error: 'Yangilangan topshiriq ma\'lumotlari kiritilmadi' }, { status: 400 });
     }
 
-    const existing = getAssignmentById(id);
+    const existing = await getAssignmentById(id);
     if (!existing) {
       return NextResponse.json({ success: false, error: 'Topshiriq topilmadi' }, { status: 404 });
     }
 
-    updateAssignment(id, body);
+    await updateAssignment(id, body);
     return NextResponse.json({ success: true, assignment: { ...existing, ...body } });
   } catch (error: any) {
     return NextResponse.json({ success: false, error: error.message || 'Server xatoligi' }, { status: 500 });
@@ -66,12 +66,12 @@ export async function DELETE(
       return NextResponse.json({ success: false, error: 'ID talab qilinadi' }, { status: 400 });
     }
 
-    const existing = getAssignmentById(id);
+    const existing = await getAssignmentById(id);
     if (!existing) {
       return NextResponse.json({ success: false, error: 'Topshiriq topilmadi' }, { status: 404 });
     }
 
-    deleteAssignment(id);
+    await deleteAssignment(id);
     return NextResponse.json({ success: true, message: 'Topshiriq muvaffaqiyatli o\'chirildi' });
   } catch (error: any) {
     return NextResponse.json({ success: false, error: error.message || 'Server xatoligi' }, { status: 500 });

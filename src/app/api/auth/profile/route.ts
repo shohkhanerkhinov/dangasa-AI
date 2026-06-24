@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { updateUserProfile, readDb } from '@/lib/db';
+import { updateUserProfile, findUserByEmail } from '@/lib/db';
 
 export async function PUT(req: NextRequest) {
   try {
@@ -12,11 +12,10 @@ export async function PUT(req: NextRequest) {
     const emailNormalized = email.toLowerCase().trim();
     
     // We update the DB first
-    updateUserProfile(emailNormalized, { name, level, profileImage });
+    await updateUserProfile(emailNormalized, { name, level, profileImage });
 
     // Read again to return the updated object
-    const db = readDb();
-    const found = db.registeredUsers.find(u => u.email.toLowerCase() === emailNormalized);
+    const found = await findUserByEmail(emailNormalized);
 
     if (!found) {
       return NextResponse.json({ success: false, error: 'Foydalanuvchi topilmadi' }, { status: 404 });

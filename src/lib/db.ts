@@ -1,5 +1,13 @@
-import fs from 'fs';
-import path from 'path';
+import { db } from './firebase';
+import {
+  collection,
+  doc,
+  getDoc,
+  getDocs,
+  setDoc,
+  deleteDoc,
+  updateDoc,
+} from 'firebase/firestore';
 
 // Define structures based on the types in useAppStore.ts
 export interface RegisteredUser {
@@ -59,166 +67,154 @@ export interface CheatingLog {
   details: string;
 }
 
-interface DatabaseSchema {
-  registeredUsers: RegisteredUser[];
-  assignments: Assignment[];
-  attempts: QuizAttempt[];
-  cheatingLogs: CheatingLog[];
-}
-
-const DB_FILE = path.join(process.cwd(), 'src/lib/db.json');
-
-// Ensure database file exists
-function initDb(): DatabaseSchema {
-  try {
-    if (!fs.existsSync(DB_FILE)) {
-      const initialData: DatabaseSchema = {
-        registeredUsers: [
-          {
-            name: "Ali Valiyev",
-            email: "teacher@dangasa.ai",
-            passwordHash: "dGVhY2hlcjEyMw==",
-            role: "teacher",
-            level: "university",
-            profileImage: "https://api.dicebear.com/7.x/bottts/svg?seed=AliValiyev",
-            xp: 0,
-            levelNumber: 1
-          },
-          {
-            name: "Ziyoda Karimova",
-            email: "student@dangasa.ai",
-            passwordHash: "c3R1ZGVudDEyMw==",
-            role: "student",
-            level: "university",
-            profileImage: "https://api.dicebear.com/7.x/bottts/svg?seed=ZiyodaKarimova",
-            xp: 120,
-            levelNumber: 2
-          }
-        ],
-        assignments: [],
-        attempts: [],
-        cheatingLogs: []
-      };
-      // Create folder if needed
-      fs.mkdirSync(path.dirname(DB_FILE), { recursive: true });
-      fs.writeFileSync(DB_FILE, JSON.stringify(initialData, null, 2), 'utf-8');
-      return initialData;
-    }
-    const data = fs.readFileSync(DB_FILE, 'utf-8');
-    return JSON.parse(data);
-  } catch (error) {
-    console.error("Failed to initialize database:", error);
-    return {
-      registeredUsers: [],
-      assignments: [],
-      attempts: [],
-      cheatingLogs: []
-    };
-  }
-}
-
-// Read database
-export function readDb(): DatabaseSchema {
-  return initDb();
-}
-
-// Write database
-export function writeDb(data: DatabaseSchema): void {
-  try {
-    fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2), 'utf-8');
-  } catch (error) {
-    console.error("Failed to write to database:", error);
-  }
-}
-
 // Helper: Users
-export function getUsers(): RegisteredUser[] {
-  return readDb().registeredUsers;
-}
-
-export function addUser(user: RegisteredUser): void {
-  const db = readDb();
-  db.registeredUsers.push(user);
-  writeDb(db);
-}
-
-export function updateUserXp(email: string, xp: number, levelNumber: number): void {
-  const db = readDb();
-  const userIndex = db.registeredUsers.findIndex(u => u.email.toLowerCase() === email.toLowerCase());
-  if (userIndex !== -1) {
-    db.registeredUsers[userIndex].xp = xp;
-    db.registeredUsers[userIndex].levelNumber = levelNumber;
-    writeDb(db);
+export async function getUsers(): Promise<RegisteredUser[]> {
+  try {
+    const snapshot = await getDocs(collection(db, 'users'));
+    return snapshot.docs.map(doc => doc.data() as RegisteredUser);
+  } catch (error) {
+    console.error("Failed to get users from Firestore:", error);
+    return [];
   }
 }
 
-export function updateUserProfile(
+export async function findUserByEmail(email: string): Promise<RegisteredUser | undefined> {
+  try {
+    const docSnap = await getDoc(doc(db, 'users', email.toLowerCase().trim()));
+    if (docSnap.exists()) {
+      return docSnap.data() as RegisteredUser;
+    }
+    return undefined;
+  } catch (error) {
+    console.error("Failed to find user by email from Firestore:", error);
+    return undefined;
+  }
+}
+
+export async function addUser(user: RegisteredUser): Promise<void> {
+  try {
+    const userDocRef = doc(db, 'users', user.email.toLowerCase().trim());
+    await setDoc(userDocRef, user);
+  } catch (error) {
+    console.error("Failed to add user to Firestore:", error);
+  }
+}
+
+export async function updateUserXp(email: string, xp: number, levelNumber: number): Promise<void> {
+  try {
+    const userDocRef = doc(db, 'users', email.toLowerCase().trim());
+    await updateDoc(userDocRef, { xp, levelNumber });
+  } catch (error) {
+    console.error("Failed to update user XP in Firestore:", error);
+  }
+}
+
+export async function updateUserProfile(
   email: string,
   updatedData: { name: string; level: 'school' | 'college' | 'university'; profileImage?: string }
-): void {
-  const db = readDb();
-  const userIndex = db.registeredUsers.findIndex(u => u.email.toLowerCase() === email.toLowerCase());
-  if (userIndex !== -1) {
-    db.registeredUsers[userIndex].name = updatedData.name;
-    db.registeredUsers[userIndex].level = updatedData.level;
+): Promise<void> {
+  try {
+    const userDocRef = doc(db, 'users', email.toLowerCase().trim());
+    const updatePayload: Record<string, any> = {
+      name: updatedData.name,
+      level: updatedData.level,
+    };
     if (updatedData.profileImage) {
-      db.registeredUsers[userIndex].profileImage = updatedData.profileImage;
+      updatePayload.profileImage = updatedData.profileImage;
     }
-    writeDb(db);
+    await updateDoc(userDocRef, updatePayload);
+  } catch (error) {
+    console.error("Failed to update user profile in Firestore:", error);
   }
 }
 
 // Helper: Assignments
-export function getAssignments(): Assignment[] {
-  return readDb().assignments;
-}
-
-export function getAssignmentById(id: string): Assignment | undefined {
-  return readDb().assignments.find(a => a.id === id);
-}
-
-export function addAssignment(assignment: Assignment): void {
-  const db = readDb();
-  // Avoid duplicates
-  if (!db.assignments.some(a => a.id === assignment.id)) {
-    db.assignments.unshift(assignment); // Add to beginning (latest first)
-    writeDb(db);
+export async function getAssignments(): Promise<Assignment[]> {
+  try {
+    const snapshot = await getDocs(collection(db, 'assignments'));
+    // Since we don't have default ordering, we'll sort them in memory if needed
+    return snapshot.docs.map(doc => doc.data() as Assignment);
+  } catch (error) {
+    console.error("Failed to get assignments from Firestore:", error);
+    return [];
   }
 }
 
-export function deleteAssignment(id: string): void {
-  const db = readDb();
-  db.assignments = db.assignments.filter(a => a.id !== id);
-  writeDb(db);
+export async function getAssignmentById(id: string): Promise<Assignment | undefined> {
+  try {
+    const docSnap = await getDoc(doc(db, 'assignments', id));
+    if (docSnap.exists()) {
+      return docSnap.data() as Assignment;
+    }
+    return undefined;
+  } catch (error) {
+    console.error("Failed to get assignment by ID from Firestore:", error);
+    return undefined;
+  }
 }
 
-export function updateAssignment(id: string, updated: Assignment): void {
-  const db = readDb();
-  const index = db.assignments.findIndex(a => a.id === id);
-  if (index !== -1) {
-    db.assignments[index] = { ...db.assignments[index], ...updated };
-    writeDb(db);
+export async function addAssignment(assignment: Assignment): Promise<void> {
+  try {
+    const docRef = doc(db, 'assignments', assignment.id);
+    await setDoc(docRef, assignment);
+  } catch (error) {
+    console.error("Failed to add assignment to Firestore:", error);
+  }
+}
+
+export async function deleteAssignment(id: string): Promise<void> {
+  try {
+    await deleteDoc(doc(db, 'assignments', id));
+  } catch (error) {
+    console.error("Failed to delete assignment from Firestore:", error);
+  }
+}
+
+export async function updateAssignment(id: string, updated: Assignment): Promise<void> {
+  try {
+    const docRef = doc(db, 'assignments', id);
+    await setDoc(docRef, updated, { merge: true });
+  } catch (error) {
+    console.error("Failed to update assignment in Firestore:", error);
   }
 }
 
 // Helper: Attempts
-export function getAttempts(): QuizAttempt[] {
-  return readDb().attempts;
+export async function getAttempts(): Promise<QuizAttempt[]> {
+  try {
+    const snapshot = await getDocs(collection(db, 'attempts'));
+    return snapshot.docs.map(doc => doc.data() as QuizAttempt);
+  } catch (error) {
+    console.error("Failed to get attempts from Firestore:", error);
+    return [];
+  }
 }
 
-export function addAttempt(attempt: QuizAttempt): void {
-  const db = readDb();
-  db.attempts.unshift(attempt);
-  writeDb(db);
+export async function addAttempt(attempt: QuizAttempt): Promise<void> {
+  try {
+    const docRef = doc(db, 'attempts', attempt.id);
+    await setDoc(docRef, attempt);
+  } catch (error) {
+    console.error("Failed to add attempt to Firestore:", error);
+  }
 }
 
 // Helper: Cheating Logs
-export function getCheatingLogs(): CheatingLog[] {
-  return readDb().cheatingLogs;
+export async function getCheatingLogs(): Promise<CheatingLog[]> {
+  try {
+    const snapshot = await getDocs(collection(db, 'cheating_logs'));
+    return snapshot.docs.map(doc => doc.data() as CheatingLog);
+  } catch (error) {
+    console.error("Failed to get cheating logs from Firestore:", error);
+    return [];
+  }
 }
 
-export function addCheatingLog(log: CheatingLog): void {
-  const db = readDb();
-  db.cheatingLogs.unshift(log);
-  writeDb(db);
+export async function addCheatingLog(log: CheatingLog): Promise<void> {
+  try {
+    const docRef = doc(db, 'cheating_logs', log.id);
+    await setDoc(docRef, log);
+  } catch (error) {
+    console.error("Failed to add cheating log to Firestore:", error);
+  }
 }
